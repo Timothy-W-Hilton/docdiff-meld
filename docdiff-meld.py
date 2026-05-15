@@ -157,12 +157,10 @@ def clean_lines(lines):
         if not line:
             continue
 
-        # Skip likely empty template artifacts
         if set(line) <= {"-", "_", ".", " "}:
             continue
 
-        wrapped = textwrap.fill(line, width=100)
-        cleaned.append(wrapped)
+        cleaned.append(line)
 
     return "\n\n".join(cleaned) + "\n"
 

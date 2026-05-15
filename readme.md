@@ -57,7 +57,7 @@ Python 3 is also required.
 Clone the repository:
 
 ```bash
-git clone <repo-url>
+git clone git@github.com:Timothy-W-Hilton/docdiff-meld.git
 cd docdiff-meld
 ```
 
